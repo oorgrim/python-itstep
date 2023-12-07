@@ -10,6 +10,7 @@ except ValueError:
     print("Введите число! (вы ввели символ)")
 else:
     left = (24 - hours - 1) *60 + (60 - minutes)
+    #VN: ^^^^ идея всё перевести в минуты - супер!
     hours_left = left // 60
     minutes_left = left % 60
     print("До следующего дня осталось", hours_left, "часов и", minutes_left, "минут")
