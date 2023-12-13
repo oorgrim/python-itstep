@@ -1,4 +1,4 @@
-user_data = input("Введите числа от 0 до 9: ")
+user_data = input("Введите число от 0 до 9: ")
 match user_data:
     case "0":
         print(")")
