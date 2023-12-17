@@ -1,5 +1,6 @@
 
 user_data = int(input("Введите пятизначное число: "))
+#VN:        ^^^^ похоже, это преобразование тут забыли убрать, т.к. оно теперь есть в try
 try:
     num = int(user_data)
 except ValueError:

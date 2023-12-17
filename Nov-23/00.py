@@ -6,6 +6,7 @@ try:
     binary = bin(integer_num)
     octal = oct(integer_num)
     hexadecimal = hex(integer_num)
+    #VN: последние 3 строки в try не нужны - там не будет исключения
 
 except ValueError:
     print("Ошибка: введите корректное десятичное число.")
