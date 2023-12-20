@@ -9,6 +9,7 @@ if not input_employee:
 else:
     for employee in input_employee_list:
         employee_names.append(employee.capitalize()) #чтоыб программа работала с любым регистром (сначала привела все элементы в виде имен к одному регистру capitalize - она сделает заглавной только первую букву имени)
+                                                     #VN: это хорошая практика!
     seen_names = set()
     duplicates = set()
 
