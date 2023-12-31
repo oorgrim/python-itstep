@@ -6,6 +6,7 @@ def is_perfect_number(number):
     divisors = [i for i in range(1, number) if number % i == 0]
     sum_of_divisors = sum(divisors)
     return sum_of_divisors == number
+    #VN: класс!! ^^^^^^^^^^^^^^^ особенно вот это. очень изящно получилось
 
 try:
     input_number = int(input('Введите число для проверки: '))
