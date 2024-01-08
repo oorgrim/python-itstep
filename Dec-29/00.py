@@ -13,7 +13,7 @@ except ValueError:
     print('Введите число!')
 else:
     if N <= 0 or M <= 0:
-        print("Введите пожалуйста положительные числа: ")
+        print("Введите пожалуйста положительные числа!")
     else:
         matrix = create_matrix(N, M)
         print("Ваша матрица:")
