@@ -1,5 +1,3 @@
-
-#это код с предыдущего задания, второе начинается с 74 строки 
 employees_db = []
 
 def generate_id(): #генеиировать айди
@@ -52,7 +50,6 @@ def getEmployeeRecord(employee_id):
             return employee
     return {'id': -1, 'errorDescription': 'Сотрудник с указанным id не найден'}
 
-# то что я добавила :
 def getFiredEmployees():
 
     fired_employees = []  
