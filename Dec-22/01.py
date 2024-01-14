@@ -110,6 +110,7 @@ def getMinMaxAvgSalary():
         median_salary = sorted_salaries[n // 2]
     
     return min_salary, max_salary, avg_salary, median_salary
+    #VN: выражение n // 2 встречается часто, поэтому лучше вычислить его заранее: half = n // 2
 
 
 fired_employees = getFiredEmployees()
