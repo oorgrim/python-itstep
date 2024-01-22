@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+# user_text = input("Введите текст: ")
+# max_len_input = input("Введите максимальную длину строки: ")
+# max_len = int(max_len_input)
+# if user_text.len() > max_len:
+    
+=======
 
 user_data = input("Введите текст: ")
 
@@ -39,3 +46,4 @@ else:
     formatted_text += formatted_sentences[-1]
 
     print(f"Отформатированный текст: {formatted_text}")
+>>>>>>> 4b1f148011e35bf53540b28ccc158bcd2a9d19d6

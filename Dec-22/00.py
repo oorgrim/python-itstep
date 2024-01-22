@@ -42,6 +42,7 @@ def fireEmployee(employee_id): #увольнение
 def getEmployeeId(name): #найти сотрудника по ФИ
     for employee in employees_db:
         if name.lower() in [employee['firstName'].lower(), employee['lastName'].lower()]:
+            #VN:        ^^^^^^^^^^^^^^^^^^^^ очень хороший подход, здорово!
             return employee['id']
     return -1
 
