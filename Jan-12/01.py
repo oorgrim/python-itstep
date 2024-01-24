@@ -1,6 +1,6 @@
 students = [
     {'name': 'Marina', 'age': 31,'course': 'Python', 'average_grade': 12},
-    
+    #VN: пустые строки тут не нужно
     {'name': 'Melissa Kim', 'age': 17,'course': 'HTML', 'average_grade': 11},
     
     {'name': 'Aurora Smith', 'age': 22,'course': 'HTML', 'average_grade': 12},
