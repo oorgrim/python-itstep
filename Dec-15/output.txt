@@ -1,0 +1,6 @@
+Протокол: https
+Доменное имя: www.google.com
+Запрос: search
+Параметры:
+   q = guido+van+rossum
+   lang = ru
