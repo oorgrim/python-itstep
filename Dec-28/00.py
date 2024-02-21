@@ -15,4 +15,4 @@ def test_get_count_of_emoji():
     assert result.count("😊") == count_emoji
     print("Тест пройден")
 
-test_get_count_of_emoji()
+test_get_count_of_emoji() 
